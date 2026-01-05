@@ -1,4 +1,4 @@
-\# VFEX Stock Price Forecasting System
+# VFEX Stock Price Forecasting System
 
 
 
@@ -6,29 +6,28 @@ Short-term price movement and volatility forecasting for VFEX-listed stocks usin
 
 
 
-\## Features
+## Features
+
+
+Data collection \& preprocessing
+
+Technical indicator generation (RSI, MACD, Bollinger Bands)
+
+✅ Baseline models (Naive, ARIMA, Linear Regression)
+
+✅ ML models (Random Forest, XGBoost)
+
+✅ Comprehensive evaluation \& backtesting
+
+✅ Interactive dashboard
 
 
 
-\- ✅ Data collection \& preprocessing
-
-\- ✅ Technical indicator generation (RSI, MACD, Bollinger Bands)
-
-\- ✅ Baseline models (Naive, ARIMA, Linear Regression)
-
-\- ✅ ML models (Random Forest, XGBoost)
-
-\- ✅ Comprehensive evaluation \& backtesting
-
-\- ✅ Interactive dashboard
-
-
-
-\## Installation
+## Installation
 
 ```bash
 
-git clone <repo>
+git clone https://github.com/piquii365/vfex_forecasting.git
 
 cd vfex\_forecasting
 
@@ -38,7 +37,7 @@ pip install -r requirements.txt
 
 
 
-\## Quick Start
+## Quick Start
 
 ```bash
 
@@ -56,7 +55,7 @@ streamlit run dashboard/app.py
 
 
 
-\## Project Structure
+## Project Structure
 
 ````
 
