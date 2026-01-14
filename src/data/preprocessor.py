@@ -74,7 +74,7 @@ class VFEXDataPreprocessor:
 
 
 # Usage
-df = pd.read_csv('data/raw/SEED.VFEX.csv')
+df = pd.read_csv('raw/SEED.VFEX.csv')
 preprocessor = VFEXDataPreprocessor(df)
 clean_df = preprocessor.clean()
 clean_df.to_csv('data/processed/SEED_VFEX_clean.csv', index=False)
